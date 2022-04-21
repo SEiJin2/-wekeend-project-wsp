@@ -3,7 +3,7 @@
     padding: 0;
     border: 0;
 }
-body{
+/* body{
     background-image: url("/nav_bar/bgphoto.jpg"),  linear-gradient(52.25deg, #282D3B 26.64%, rgba(28, 34, 51, 0.915704) 48.02%, rgba(35, 35, 37, 0.4) 62.78%, rgba(196, 196, 196, 0) 101.42%);
     height: 100vh;
     Background-repeat: no-repeat;
@@ -17,7 +17,22 @@ body{
     overflow: hidden;
     border: 1px solid #000000;
     box-sizing: border-box;
-}
+} */
+
+#background_image {
+    background-image: url("/nav_bar/bgphoto.jpg"),  linear-gradient(52.25deg, #282D3B 26.64%, rgba(28, 34, 51, 0.915704) 48.02%, rgba(35, 35, 37, 0.4) 62.78%, rgba(196, 196, 196, 0) 101.42%);
+    height: 100vh;
+    Background-repeat: no-repeat;
+    font-family: GT America;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    overflow: hidden;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+} 
 
 .image_logo{
     background-image: url(/picture/KBTU\ Logo.svg);
@@ -147,3 +162,9 @@ body{
     font-size: 14px;
     line-height: 17px;
 }
+
+#container {
+    width: 1000px;
+    height: 1000px;
+    border: 1px solid blue;
+  }
