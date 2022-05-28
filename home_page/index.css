@@ -118,7 +118,7 @@ body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
+background: linear-gradient(0deg, rgba(41, 46, 60, 0.65), rgba(41, 46, 60, 0.65));}
 ol,
 ul {
   list-style: none;
@@ -149,8 +149,8 @@ Buttons don't work (no actions specified) */
 #navigation_header {
   display: flex;
   justify-content: space-between;
+  min-width: 1440;
   height: 10%;
-  width: 100%;
   background: linear-gradient(0deg, rgba(41, 46, 60, 0.65), rgba(41, 46, 60, 0.65)), url(./picture/Rectangle_log.jpg);
 }
 
@@ -161,7 +161,7 @@ Buttons don't work (no actions specified) */
 #navigation_header .account_info {
     display: flex;
     justify-content: left;
-    align-items: center;
+    align-items:flex-start;
     padding: 10px 30px 10px 30px;
 }
 
@@ -213,7 +213,7 @@ Buttons don't work (no actions specified) */
 #content {
   display: flex;
   width: 100%;
-  height: 100%;
+  min-height: 900px;
   flex: 1;
 }
 
@@ -262,7 +262,7 @@ Buttons don't work (no actions specified) */
 }
 
 .tools_element {
-  padding: 0;
+  padding: 15 15 15 15;
   display: flex;
 }
 
@@ -276,6 +276,10 @@ Buttons don't work (no actions specified) */
 
 .tools_element .element_image img {
   object-fit: contain;
+}
+
+.tools_element:hover {
+  background-color: rgb(67, 74, 92);
 }
 
 .element_text {
