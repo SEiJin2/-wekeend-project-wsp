@@ -39,8 +39,8 @@
 const el = document.querySelector("#module");
 
 el.addEventListener("mousemove", (e) => {
-  el.style.setProperty("--x", -e.screenX/15 + "px");
-  el.style.setProperty("--y", -e.screenY/15 + "px");
+  el.style.setProperty("--x", (-e.screenX/15)+150 + "px");
+  el.style.setProperty("--y", (-e.screenY/15) + "px");
 });
 
 
